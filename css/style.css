@@ -47,6 +47,34 @@ body {
    width: 50%;
    margin: 0 auto;
 }
+
+nav {
+   display: inline-block;
+   position: absolute;
+   top: 20px;
+   right: 0;
+   z-index: 1;
+}
+
+nav li {
+   float: left;
+   margin: 0 10px;
+   list-style: none;
+   font-size: 8px
+}
+
+a {
+   background: white;
+   border: 1px solid transparent;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   line-height: 25px;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+
+}
 /* FINE MAIN */
 
 /* INIZIO DEBUG */
@@ -98,9 +126,11 @@ body {
    border-radius: 50%;
    width: 25px;
    height: 25px;
-   padding: 10px;  
    line-height: 25px;
    text-decoration: none;
+   display: inline-block;
+   text-align: center;
+
 }
 
 /* FINE DEBUG */
