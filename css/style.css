@@ -11,7 +11,32 @@ box-sizing: border-box;
 
 
 
-
 /* INIZIO DEBUG */
 
+.debug .article {
+   width: 100%;
+   height: 100vh;
+   position: relative;
+
+}
+
+.debug .bg-r {
+   background: red
+}
+
+.debug .bg-g {
+   background: green
+}
+
+.debug .bg-y {
+   background: yellow
+}
+
+img {
+   border: 1px solid black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 /* FINE DEBUG */
