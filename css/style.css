@@ -85,18 +85,22 @@ body {
    z-index: 1;
 }
 
-.debug li {
+.debug li{
    float: left;
    margin: 0 10px;
    list-style: none;
+   font-size: 8px
+}
+
+.debug a {
+   background: white;
    border: 1px solid transparent;
    border-radius: 50%;
    width: 25px;
    height: 25px;
-   text-align: center;
+   padding: 10px;  
    line-height: 25px;
-   font-size:8px;
-   background: white
+   text-decoration: none;
 }
 
 /* FINE DEBUG */
