@@ -76,4 +76,27 @@ body {
    width: 50%;
    margin: 0 auto;
 }
+
+.debug nav {
+   display: inline-block;
+   position: absolute;
+   top: 20px;
+   right: 0;
+   z-index: 1;
+}
+
+.debug li {
+   float: left;
+   margin: 0 10px;
+   list-style: none;
+   border: 1px solid transparent;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   font-size:8px;
+   background: white
+}
+
 /* FINE DEBUG */
